@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron {
+	text-align: center;
+	margin: 40px;
+}
+
+.panel {
+	margin: 40px;
+}
