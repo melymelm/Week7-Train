@@ -75,6 +75,8 @@
 				console.log(childSnapshot.val().frequency);
 				console.log("------------------");
 
+				//
+
 				var diffTimes = moment().diff(moment.unix(firstTrainTime), "minutes");
 				var remainder = moment().diff(moment.unix(firstTrainTime), "minutes") % frequency ;
 				var minAway = frequency - remainder;
@@ -86,14 +88,6 @@
 				console.log(moment().format("hh:mm A"));
 				console.log("Arrival time: " + arrTrain);
 				console.log(moment().format("X"));
-
-
-
-
-
-
-
-
 
 
 			//adding items to the html
